@@ -1,9 +1,4 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://guides.cocoapods.org/syntax/podspec.html
-#
+
 Pod::Spec.new do |s|
   s.name             = "PTUIKitAdditions"
   s.version          = "0.0.3"
@@ -19,7 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/*.{h,m}'
   s.resources = 'Resources'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
    s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
 end
