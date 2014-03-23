@@ -1,18 +1,25 @@
-Pod::Spec.new do |spec|
+#
+# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
+# valid spec and remove all comments before submitting the spec.
+#
+# To learn more about the attributes see http://guides.cocoapods.org/syntax/podspec.html
+#
+Pod::Spec.new do |s|
+  s.name             = "PTUIKitAdditions"
+  s.version          = "0.0.3"
+  s.summary          = "Collection of UIKit categories"
+  s.homepage         = "https://github.com/Pointwelve/PTUIKitAdditions"
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.authors          = { "Ryne Cheow" => "rynecheow@gmail.com" }
+  s.source           = { :git => 'https://github.com/Pointwelve/PTUIKitAdditions.git', :tag => "v#{s.version}" }
 
-  spec.name         = "PTUIKitAdditions"
-  spec.version      = "0.0.2"
-  spec.summary      = "Collection of UIKit categories"
-  spec.homepage     = "https://github.com/Pointwelve/PTUIKitAdditions"
-  spec.authors      = { "Ryne Cheow" => "rynecheow@gmail.com" }
-  
-  spec.license = { :type => 'MIT', :file => 'LICENSE' }
+  s.platform     = :ios, '7.0'  
+  s.requires_arc = true
 
-  spec.requires_arc = true
+  s.source_files = 'Classes/*.{h,m}'
+  s.resources = 'Resources'
 
-  spec.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
-  spec.source_files = 'PTUIKitAdditions/*.{h,m}'
-  spec.platform     = :ios, '7.0'
-  spec.source = { :git => 'https://github.com/Pointwelve/PTUIKitAdditions.git', :tag => "v#{spec.version}" }
-
+  s.ios.exclude_files = 'Classes/osx'
+  s.osx.exclude_files = 'Classes/ios'
+   s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
 end

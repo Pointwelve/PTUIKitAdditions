@@ -1,0 +1,7 @@
+ pod "PTUIKitAdditions", :path => "../PTUIKitAdditions.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
