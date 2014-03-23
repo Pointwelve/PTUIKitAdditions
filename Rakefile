@@ -6,8 +6,8 @@ namespace :test do
 
   desc "Run the AFNetworking Tests for iOS"
   task :ios => :prepare do
-    system("which xctool || brew install ios-sim")
-    $ios_success = system("xcodebuild -workspace Example/Demo.xcworkspace -scheme Demo -sdk iphonesimulator -configuration Debug RUN_UNIT_TEST_WITH_IOS_SIM=YES")
+    #system("which xctool || brew install ios-sim")
+    $ios_success = system("xcodebuild -workspace Example/Demo.xcworkspace -scheme Demo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO")
   end
 end
 
