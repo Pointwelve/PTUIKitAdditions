@@ -1,6 +1,24 @@
 desc "Runs the specs [EMPTY]"
-task :spec do
-  # Provide your own implementation
+namespace :test do
+  task :prepare do
+    system(%Q{mkdir -p "Example/Demo/Demo.xcodeproj/xcshareddata/xcschemes" && cp Example/Demo/*.xcscheme "Example/Demo/Demo.xcodeproj/xcshareddata/xcschemes/"})
+  end
+
+  desc "Run the AFNetworking Tests for iOS"
+  task :ios => :prepare do
+    system("which xctool || brew install ios-sim")
+    $ios_success = system("xcodebuild -workspace Example/Demo.xcworkspace -scheme Demo -sdk iphonesimulator -configuration Debug RUN_UNIT_TEST_WITH_IOS_SIM=YES")
+  end
+end
+
+task :test => ['test:ios'] do 
+   puts "\033[0;31m! iOS unit tests failed" unless $ios_success
+
+   if $ios_success
+    puts "\033[0;32m** All tests executed successfully"
+  else
+    exit(-1)
+  end
 end
 
 task :version do
