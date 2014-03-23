@@ -2,6 +2,7 @@ language: objective-c
 
 before_install:
     - brew update
+    - cd Example && pod install && cd $TRAVIS_BUILD_DIR
 
 script:
    - rake test
