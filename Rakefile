@@ -4,7 +4,7 @@ namespace :test do
     system(%Q{mkdir -p "Example/Demo/Demo.xcodeproj/xcshareddata/xcschemes" && cp Example/Demo/*.xcscheme "Example/Demo/Demo.xcodeproj/xcshareddata/xcschemes/"})
   end
 
-  desc "Run the AFNetworking Tests for iOS"
+  desc "Run the Demo Tests for iOS"
   task :ios => :prepare do
     #system("which xctool || brew install ios-sim")
     $ios_success = system("xcodebuild -workspace Example/Demo.xcworkspace -scheme Demo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO")
