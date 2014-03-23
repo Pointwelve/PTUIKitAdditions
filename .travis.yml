@@ -1,7 +1,8 @@
 language: objective-c
 
 before_install:
-    # - brew update
+    - brew update
+    - gem install cocoapods
     - cd Example && pod install && cd $TRAVIS_BUILD_DIR
 
 script:
