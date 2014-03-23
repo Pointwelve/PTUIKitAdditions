@@ -1,7 +1,8 @@
- pod "PTUIKitAdditions", :path => "../PTUIKitAdditions.podspec"
+platform :ios, '7.1'
 
-target "Demo" do
-end
+# ignore all warnings from all pods
+inhibit_all_warnings!
 
-target "DemoTests" do
-end
+pod "PTUIKitAdditions", :path => "../PTUIKitAdditions.podspec"
+
+xcodeproj 'Demo/Demo.xcodeproj'
