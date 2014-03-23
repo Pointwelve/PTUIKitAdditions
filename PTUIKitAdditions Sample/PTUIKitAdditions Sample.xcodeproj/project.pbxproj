@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D86428218DE784E00BC227B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86428118DE784E00BC227B /* Foundation.framework */; };
+		6D86428418DE784E00BC227B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86428318DE784E00BC227B /* CoreGraphics.framework */; };
+		6D86428618DE784E00BC227B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86428518DE784E00BC227B /* UIKit.framework */; };
+		6D86428C18DE784E00BC227B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D86428A18DE784E00BC227B /* InfoPlist.strings */; };
+		6D86428E18DE784E00BC227B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D86428D18DE784E00BC227B /* main.m */; };
+		6D86429218DE784E00BC227B /* PTUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D86429118DE784E00BC227B /* PTUIAppDelegate.m */; };
+		6D86429418DE784E00BC227B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D86429318DE784E00BC227B /* Images.xcassets */; };
+		8CD2702DAFF5CF7C97B14E33 /* UIScrollView+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD273CD6DE22863DEBAAC85 /* UIScrollView+PTUIKitAddition.m */; };
+		8CD271EA6D9130EB09C61DB7 /* UIFont+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27E9322995EED9BD94A35 /* UIFont+PTUIKitAddition.m */; };
+		8CD272C720FC6D9230EBC1C2 /* UIControl+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD277D308B300D969177CDD /* UIControl+PTUIKitAddition.m */; };
+		8CD272CCAA90A060057F7B4F /* PTUIKitAdditionSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27E9547DE018CC6959188 /* PTUIKitAdditionSampleViewController.m */; };
+		8CD27469622F86656D28F736 /* UIView+PTUIKitAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27F8B90639CBF2B4E5D04 /* UIView+PTUIKitAdditon.m */; };
+		8CD27577D8776862E3C65E26 /* UIScreen+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27564BD82620B1C1D0567 /* UIScreen+PTUIKitAddition.m */; };
+		8CD2766E4C68F10D7B9596A2 /* UIColor+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD275DDC5EB750631B6FE77 /* UIColor+PTUIKitAddition.m */; };
+		8CD2782D3A9CB121D92B6C8C /* NSString+HexToColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD276DF74942D6D4BC1D787 /* NSString+HexToColor.m */; };
+		8CD279A3B391C715CC8F8EEC /* UIImage+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27F2DAAD5DFD58A7CF1A8 /* UIImage+PTUIKitAddition.m */; };
+		8CD27B0B3DBAD3C8283964B6 /* UIViewController+PTUIKitAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD27F46B24C1812E024F815 /* UIViewController+PTUIKitAdditon.m */; };
+		8CD27D024D5E57555717AC6D /* UIDevice+PTUIKitAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2741F7C549C1A07459280 /* UIDevice+PTUIKitAddition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D86427E18DE784E00BC227B /* PTUIKitAdditions Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTUIKitAdditions Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D86428118DE784E00BC227B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D86428318DE784E00BC227B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D86428518DE784E00BC227B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D86428918DE784E00BC227B /* PTUIKitAdditions Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTUIKitAdditions Sample-Info.plist"; sourceTree = "<group>"; };
+		6D86428B18DE784E00BC227B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D86428D18DE784E00BC227B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D86428F18DE784E00BC227B /* PTUIKitAdditions Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTUIKitAdditions Sample-Prefix.pch"; sourceTree = "<group>"; };
+		6D86429018DE784E00BC227B /* PTUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTUIAppDelegate.h; sourceTree = "<group>"; };
+		6D86429118DE784E00BC227B /* PTUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTUIAppDelegate.m; sourceTree = "<group>"; };
+		6D86429318DE784E00BC227B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D86429A18DE784E00BC227B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D8642B218DE791000BC227B /* PTUIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUIKitAdditions.h; sourceTree = "<group>"; };
+		8CD272C1960FB16EBD2E8FB5 /* UIView+PTUIKitAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PTUIKitAdditon.h"; sourceTree = "<group>"; };
+		8CD273CD6DE22863DEBAAC85 /* UIScrollView+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD2741F7C549C1A07459280 /* UIDevice+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD27534809CB51350943DD0 /* NSString+HexToColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexToColor.h"; sourceTree = "<group>"; };
+		8CD2754EFB4814090D0DA41E /* UIViewController+PTUIKitAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PTUIKitAdditon.h"; sourceTree = "<group>"; };
+		8CD27564BD82620B1C1D0567 /* UIScreen+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD275DDC5EB750631B6FE77 /* UIColor+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD276DF74942D6D4BC1D787 /* NSString+HexToColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexToColor.m"; sourceTree = "<group>"; };
+		8CD277D308B300D969177CDD /* UIControl+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD278546960417E762F16EE /* UIColor+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD2790F8515ADAA0A9B5799 /* UIImage+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD27B760F9A7288905DE878 /* UIDevice+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD27D141129CC4AC8B3ACA7 /* UIScreen+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD27D9305503C3297D62948 /* UIControl+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD27E9322995EED9BD94A35 /* UIFont+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD27E9547DE018CC6959188 /* PTUIKitAdditionSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTUIKitAdditionSampleViewController.m; path = Images.xcassets/PTUIKitAdditionSampleViewController.m; sourceTree = "<group>"; };
+		8CD27F2DAAD5DFD58A7CF1A8 /* UIImage+PTUIKitAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PTUIKitAddition.m"; sourceTree = "<group>"; };
+		8CD27F46B24C1812E024F815 /* UIViewController+PTUIKitAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PTUIKitAdditon.m"; sourceTree = "<group>"; };
+		8CD27F80858A06666A7C921C /* UIFont+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD27F8B90639CBF2B4E5D04 /* UIView+PTUIKitAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PTUIKitAdditon.m"; sourceTree = "<group>"; };
+		8CD27FCF1988F651274EDED8 /* UIScrollView+PTUIKitAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PTUIKitAddition.h"; sourceTree = "<group>"; };
+		8CD27FFB5484628364D5E81C /* PTUIKitAdditionSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTUIKitAdditionSampleViewController.h; path = Images.xcassets/PTUIKitAdditionSampleViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D86427B18DE784E00BC227B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D86428418DE784E00BC227B /* CoreGraphics.framework in Frameworks */,
+				6D86428618DE784E00BC227B /* UIKit.framework in Frameworks */,
+				6D86428218DE784E00BC227B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4B08D818DE86E900FC37F9 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27B760F9A7288905DE878 /* UIDevice+PTUIKitAddition.h */,
+				8CD2741F7C549C1A07459280 /* UIDevice+PTUIKitAddition.m */,
+			);
+			name = UIDevice;
+			sourceTree = "<group>";
+		};
+		6D86427518DE784E00BC227B = {
+			isa = PBXGroup;
+			children = (
+				6D8642B018DE78C200BC227B /* Vendor */,
+				6D86428718DE784E00BC227B /* PTUIKitAdditions Sample */,
+				6D86428018DE784E00BC227B /* Frameworks */,
+				6D86427F18DE784E00BC227B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D86427F18DE784E00BC227B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D86427E18DE784E00BC227B /* PTUIKitAdditions Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D86428018DE784E00BC227B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D86428118DE784E00BC227B /* Foundation.framework */,
+				6D86428318DE784E00BC227B /* CoreGraphics.framework */,
+				6D86428518DE784E00BC227B /* UIKit.framework */,
+				6D86429A18DE784E00BC227B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D86428718DE784E00BC227B /* PTUIKitAdditions Sample */ = {
+			isa = PBXGroup;
+			children = (
+				6D86429018DE784E00BC227B /* PTUIAppDelegate.h */,
+				6D86429118DE784E00BC227B /* PTUIAppDelegate.m */,
+				6D86429318DE784E00BC227B /* Images.xcassets */,
+				6D86428818DE784E00BC227B /* Supporting Files */,
+				8CD27E9547DE018CC6959188 /* PTUIKitAdditionSampleViewController.m */,
+				8CD27FFB5484628364D5E81C /* PTUIKitAdditionSampleViewController.h */,
+			);
+			path = "PTUIKitAdditions Sample";
+			sourceTree = "<group>";
+		};
+		6D86428818DE784E00BC227B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D86428918DE784E00BC227B /* PTUIKitAdditions Sample-Info.plist */,
+				6D86428A18DE784E00BC227B /* InfoPlist.strings */,
+				6D86428D18DE784E00BC227B /* main.m */,
+				6D86428F18DE784E00BC227B /* PTUIKitAdditions Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D8642B018DE78C200BC227B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6D8642B118DE78C800BC227B /* PTUIKitAdditions */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		6D8642B118DE78C800BC227B /* PTUIKitAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				6D8642B218DE791000BC227B /* PTUIKitAdditions.h */,
+				8CD2756BA6FC08473B36C4A8 /* UIColor */,
+				8CD27B47F851CBEC2C4D2EF9 /* UIControl */,
+				6D4B08D818DE86E900FC37F9 /* UIDevice */,
+				8CD271A9BEB3EED6F9A36331 /* UIFont */,
+				8CD273044D26C2CEDB1F6EB9 /* UIImage */,
+				8CD27F43B11531098F87ADA1 /* UIView */,
+				8CD2708008A44B0672F16C4A /* UIViewController */,
+				8CD27034F56C397A0B0EAE04 /* UIScreen */,
+				8CD27AB141A689DDCEBC46A6 /* UIScrollView */,
+			);
+			name = PTUIKitAdditions;
+			path = ../PTUIKitAdditions;
+			sourceTree = "<group>";
+		};
+		8CD27034F56C397A0B0EAE04 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27564BD82620B1C1D0567 /* UIScreen+PTUIKitAddition.m */,
+				8CD27D141129CC4AC8B3ACA7 /* UIScreen+PTUIKitAddition.h */,
+			);
+			name = UIScreen;
+			sourceTree = "<group>";
+		};
+		8CD2708008A44B0672F16C4A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27F46B24C1812E024F815 /* UIViewController+PTUIKitAdditon.m */,
+				8CD2754EFB4814090D0DA41E /* UIViewController+PTUIKitAdditon.h */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		8CD271A9BEB3EED6F9A36331 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27E9322995EED9BD94A35 /* UIFont+PTUIKitAddition.m */,
+				8CD27F80858A06666A7C921C /* UIFont+PTUIKitAddition.h */,
+			);
+			name = UIFont;
+			sourceTree = "<group>";
+		};
+		8CD273044D26C2CEDB1F6EB9 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27F2DAAD5DFD58A7CF1A8 /* UIImage+PTUIKitAddition.m */,
+				8CD2790F8515ADAA0A9B5799 /* UIImage+PTUIKitAddition.h */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		8CD2756BA6FC08473B36C4A8 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8CD275DDC5EB750631B6FE77 /* UIColor+PTUIKitAddition.m */,
+				8CD278546960417E762F16EE /* UIColor+PTUIKitAddition.h */,
+				8CD276DF74942D6D4BC1D787 /* NSString+HexToColor.m */,
+				8CD27534809CB51350943DD0 /* NSString+HexToColor.h */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
+		8CD27AB141A689DDCEBC46A6 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				8CD273CD6DE22863DEBAAC85 /* UIScrollView+PTUIKitAddition.m */,
+				8CD27FCF1988F651274EDED8 /* UIScrollView+PTUIKitAddition.h */,
+			);
+			name = UIScrollView;
+			sourceTree = "<group>";
+		};
+		8CD27B47F851CBEC2C4D2EF9 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				8CD277D308B300D969177CDD /* UIControl+PTUIKitAddition.m */,
+				8CD27D9305503C3297D62948 /* UIControl+PTUIKitAddition.h */,
+			);
+			name = UIControl;
+			sourceTree = "<group>";
+		};
+		8CD27F43B11531098F87ADA1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8CD27F8B90639CBF2B4E5D04 /* UIView+PTUIKitAdditon.m */,
+				8CD272C1960FB16EBD2E8FB5 /* UIView+PTUIKitAdditon.h */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D86427D18DE784E00BC227B /* PTUIKitAdditions Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8642AA18DE784F00BC227B /* Build configuration list for PBXNativeTarget "PTUIKitAdditions Sample" */;
+			buildPhases = (
+				6D86427A18DE784E00BC227B /* Sources */,
+				6D86427B18DE784E00BC227B /* Frameworks */,
+				6D86427C18DE784E00BC227B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PTUIKitAdditions Sample";
+			productName = "PTUIKitAdditions Sample";
+			productReference = 6D86427E18DE784E00BC227B /* PTUIKitAdditions Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D86427618DE784E00BC227B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PTUI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pointwelve Studio";
+			};
+			buildConfigurationList = 6D86427918DE784E00BC227B /* Build configuration list for PBXProject "PTUIKitAdditions Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D86427518DE784E00BC227B;
+			productRefGroup = 6D86427F18DE784E00BC227B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D86427D18DE784E00BC227B /* PTUIKitAdditions Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D86427C18DE784E00BC227B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D86428C18DE784E00BC227B /* InfoPlist.strings in Resources */,
+				6D86429418DE784E00BC227B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D86427A18DE784E00BC227B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D86429218DE784E00BC227B /* PTUIAppDelegate.m in Sources */,
+				6D86428E18DE784E00BC227B /* main.m in Sources */,
+				8CD2766E4C68F10D7B9596A2 /* UIColor+PTUIKitAddition.m in Sources */,
+				8CD271EA6D9130EB09C61DB7 /* UIFont+PTUIKitAddition.m in Sources */,
+				8CD27B0B3DBAD3C8283964B6 /* UIViewController+PTUIKitAdditon.m in Sources */,
+				8CD27469622F86656D28F736 /* UIView+PTUIKitAdditon.m in Sources */,
+				8CD272CCAA90A060057F7B4F /* PTUIKitAdditionSampleViewController.m in Sources */,
+				8CD279A3B391C715CC8F8EEC /* UIImage+PTUIKitAddition.m in Sources */,
+				8CD27D024D5E57555717AC6D /* UIDevice+PTUIKitAddition.m in Sources */,
+				8CD272C720FC6D9230EBC1C2 /* UIControl+PTUIKitAddition.m in Sources */,
+				8CD2782D3A9CB121D92B6C8C /* NSString+HexToColor.m in Sources */,
+				8CD27577D8776862E3C65E26 /* UIScreen+PTUIKitAddition.m in Sources */,
+				8CD2702DAFF5CF7C97B14E33 /* UIScrollView+PTUIKitAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D86428A18DE784E00BC227B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D86428B18DE784E00BC227B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D8642A818DE784F00BC227B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D8642A918DE784F00BC227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D8642AB18DE784F00BC227B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTUIKitAdditions Sample/PTUIKitAdditions Sample-Prefix.pch";
+				INFOPLIST_FILE = "PTUIKitAdditions Sample/PTUIKitAdditions Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D8642AC18DE784F00BC227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTUIKitAdditions Sample/PTUIKitAdditions Sample-Prefix.pch";
+				INFOPLIST_FILE = "PTUIKitAdditions Sample/PTUIKitAdditions Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D86427918DE784E00BC227B /* Build configuration list for PBXProject "PTUIKitAdditions Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8642A818DE784F00BC227B /* Debug */,
+				6D8642A918DE784F00BC227B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8642AA18DE784F00BC227B /* Build configuration list for PBXNativeTarget "PTUIKitAdditions Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8642AB18DE784F00BC227B /* Debug */,
+				6D8642AC18DE784F00BC227B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D86427618DE784E00BC227B /* Project object */;
+}
