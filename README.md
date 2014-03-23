@@ -1,7 +1,7 @@
 # PTUIKitAdditions
-
-[![Version](http://cocoapod-badges.herokuapp.com/v/PTUIKitAdditions/badge.png)](http://cocoadocs.org/docsets/PTUIKitAdditions)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/PTUIKitAdditions/badge.png)](http://cocoadocs.org/docsets/PTUIKitAdditions)
+[![Build Status](https://travis-ci.org/Pointwelve/PTUIKitAdditions.svg?branch=master)](https://travis-ci.org/Pointwelve/PTUIKitAdditions)
+[![Version](http://cocoapod-badges.herokuapp.com/v/PTUIKitAdditions/badge.svg)](http://cocoadocs.org/docsets/PTUIKitAdditions)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/PTUIKitAdditions/badge.svg)](http://cocoadocs.org/docsets/PTUIKitAdditions)
 
 A collection of useful [UIKit](https://github.com/Pointwelve/PTUIKitAdditions/tree/master/PTUIKitAdditions "UIKit") categories.
 
@@ -10,6 +10,8 @@ A collection of useful [UIKit](https://github.com/Pointwelve/PTUIKitAdditions/tr
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+None.
 
 ## Installation
 
