@@ -7,6 +7,7 @@
 //
 
 #import "PTUIKitAdditionsDemoViewController.h"
+#import <PTUIKitAdditions/PTUIKitAdditions.h>
 
 @interface PTUIKitAdditionsDemoViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.view setBackgroundColor:[@"ff0000" toColor]];
 }
 
 - (void)didReceiveMemoryWarning
