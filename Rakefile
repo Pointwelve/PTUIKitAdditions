@@ -1,4 +1,8 @@
 desc "Runs the specs [EMPTY]"
+task :spec do
+  # Provide your own implementation
+end
+
 namespace :test do
   task :prepare do
     system(%Q{mkdir -p "Example/Demo/Demo.xcodeproj/xcshareddata/xcschemes" && cp Example/Demo/*.xcscheme "Example/Demo/Demo.xcodeproj/xcshareddata/xcschemes/"})
