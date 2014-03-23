@@ -1,7 +1,9 @@
 # PTUIKitAdditions
 [![Build Status](https://travis-ci.org/Pointwelve/PTUIKitAdditions.svg?branch=master)](https://travis-ci.org/Pointwelve/PTUIKitAdditions)
-[![Version](http://cocoapod-badges.herokuapp.com/v/PTUIKitAdditions/badge.svg)](http://cocoadocs.org/docsets/PTUIKitAdditions)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/PTUIKitAdditions/badge.svg)](http://cocoadocs.org/docsets/PTUIKitAdditions)
+
+[![CocoaPods](http://img.shields.io/cocoapods/v/PTUIKitAdditions.svg)](https://www.github.com/Cocoapods/Specs/PTUIKitAdditions)
+
+[![GitHub](http://img.shields.io/github/tag/Pointwelve/PTUIKitAdditions.svg)](https://www.github.com/Pointwelve/PTUIKitAdditions)
 
 A collection of useful [UIKit](https://github.com/Pointwelve/PTUIKitAdditions/tree/master/PTUIKitAdditions "UIKit") categories.
 
