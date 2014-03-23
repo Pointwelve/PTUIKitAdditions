@@ -91,7 +91,7 @@ UIColor *hexColorWithString(NSString *hexString) {
 
 - (instancetype)lightenColorByValue:(float)value
 {
-   int totalComponents = CGColorGetNumberOfComponents(self.CGColor);
+   size_t totalComponents = CGColorGetNumberOfComponents(self.CGColor);
    bool isGreyscale = totalComponents == 2 ? YES : NO;
 
    CGFloat *oldComponents = (CGFloat *) CGColorGetComponents(self.CGColor);
@@ -123,7 +123,7 @@ UIColor *hexColorWithString(NSString *hexString) {
 
 - (instancetype)darkenColorByValue:(float)value
 {
-   int totalComponents = CGColorGetNumberOfComponents(self.CGColor);
+   size_t totalComponents = CGColorGetNumberOfComponents(self.CGColor);
    bool isGreyscale = totalComponents == 2 ? YES : NO;
 
    CGFloat *oldComponents = (CGFloat *) CGColorGetComponents(self.CGColor);
@@ -155,7 +155,7 @@ UIColor *hexColorWithString(NSString *hexString) {
 
 - (BOOL)isLightColor
 {
-   int totalComponents = CGColorGetNumberOfComponents(self.CGColor);
+   size_t totalComponents = CGColorGetNumberOfComponents(self.CGColor);
    bool isGreyscale = totalComponents == 2 ? YES : NO;
 
    CGFloat *components = (CGFloat *) CGColorGetComponents(self.CGColor);

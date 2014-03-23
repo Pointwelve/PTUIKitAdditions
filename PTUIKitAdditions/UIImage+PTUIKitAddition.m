@@ -51,7 +51,7 @@
 {
    const CGFloat EffectColorAlpha = 0.6;
    UIColor *effectColor = tintColor;
-   int componentCount = CGColorGetNumberOfComponents(tintColor.CGColor);
+   size_t componentCount = CGColorGetNumberOfComponents(tintColor.CGColor);
    if (componentCount == 2) {
       CGFloat b;
       if ([tintColor getWhite:&b alpha:NULL]) {
@@ -128,7 +128,7 @@
          // ... if d is odd, use three box-blurs of size 'd', centered on the output pixel.
          //
          CGFloat inputRadius = blurRadius * [[UIScreen mainScreen] scale];
-         NSUInteger radius = (NSUInteger) floor(inputRadius * 3. * sqrt(2 * M_PI) / 4 + 0.5);
+         uint32_t radius = (uint32_t) floor(inputRadius * 3. * sqrt(2 * M_PI) / 4 + 0.5);
          if (radius % 2 != 1) {
             radius += 1; // force radius to be odd so that the three box-blur methodology works.
          }
