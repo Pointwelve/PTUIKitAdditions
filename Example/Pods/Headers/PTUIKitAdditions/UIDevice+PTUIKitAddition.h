@@ -1,1 +1,1 @@
-../../../../Classes/UIDevice+PTUIKitAddition.h
+../../PTUIKitAdditions/Classes/UIDevice+PTUIKitAddition.h

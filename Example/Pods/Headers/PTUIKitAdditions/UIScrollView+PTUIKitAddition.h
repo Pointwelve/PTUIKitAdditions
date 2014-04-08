@@ -1,1 +1,1 @@
-../../../../Classes/UIScrollView+PTUIKitAddition.h
+../../PTUIKitAdditions/Classes/UIScrollView+PTUIKitAddition.h

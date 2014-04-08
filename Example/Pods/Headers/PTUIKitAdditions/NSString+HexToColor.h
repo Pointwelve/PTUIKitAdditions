@@ -1,1 +1,1 @@
-../../../../Classes/NSString+HexToColor.h
+../../PTUIKitAdditions/Classes/NSString+HexToColor.h

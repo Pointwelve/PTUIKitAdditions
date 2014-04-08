@@ -1,1 +1,1 @@
-../../../../Classes/UIImage+PTUIKitAddition.h
+../../PTUIKitAdditions/Classes/UIImage+PTUIKitAddition.h

@@ -1,1 +1,1 @@
-../../../../Classes/UIScreen+PTUIKitAddition.h
+../../PTUIKitAdditions/Classes/UIScreen+PTUIKitAddition.h

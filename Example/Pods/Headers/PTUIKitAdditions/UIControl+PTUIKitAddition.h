@@ -1,1 +1,1 @@
-../../../../Classes/UIControl+PTUIKitAddition.h
+../../PTUIKitAdditions/Classes/UIControl+PTUIKitAddition.h

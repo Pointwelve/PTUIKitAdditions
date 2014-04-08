@@ -3,6 +3,6 @@ platform :ios, '7.1'
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
-pod "PTUIKitAdditions", :path => "../PTUIKitAdditions.podspec"
+pod "PTUIKitAdditions"
 
 xcodeproj 'Demo/Demo.xcodeproj'
