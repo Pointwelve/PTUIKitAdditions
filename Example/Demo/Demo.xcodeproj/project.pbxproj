@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B18D570191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B18D56F191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.m */; };
+		1B18D572191A19D7004EEFA2 /* sunflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B18D571191A19D7004EEFA2 /* sunflower.jpg */; };
 		6D4332F318DEC147001E3BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4332F218DEC147001E3BBB /* Foundation.framework */; };
 		6D4332F518DEC147001E3BBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4332F418DEC147001E3BBB /* CoreGraphics.framework */; };
 		6D4332F718DEC147001E3BBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4332F618DEC147001E3BBB /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		6D4332FF18DEC147001E3BBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4332FE18DEC147001E3BBB /* main.m */; };
 		6D43330318DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D43330218DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.m */; };
 		6D43330618DEC147001E3BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D43330418DEC147001E3BBB /* Main.storyboard */; };
-		6D43330918DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D43330818DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.m */; };
 		6D43330B18DEC147001E3BBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D43330A18DEC147001E3BBB /* Images.xcassets */; };
 		6D43331218DEC147001E3BBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D43331118DEC147001E3BBB /* XCTest.framework */; };
 		6D43331318DEC147001E3BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4332F218DEC147001E3BBB /* Foundation.framework */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B18D56E191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUIKitAdditionsDemoTableViewController.h; sourceTree = "<group>"; };
+		1B18D56F191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUIKitAdditionsDemoTableViewController.m; sourceTree = "<group>"; };
+		1B18D571191A19D7004EEFA2 /* sunflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower.jpg; sourceTree = "<group>"; };
 		3E8C66CC8234413E8467A3EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4332EF18DEC147001E3BBB /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4332F218DEC147001E3BBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,8 +51,6 @@
 		6D43330118DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTUIKitAdditionsDemoAppDelegate.h; sourceTree = "<group>"; };
 		6D43330218DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTUIKitAdditionsDemoAppDelegate.m; sourceTree = "<group>"; };
 		6D43330518DEC147001E3BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D43330718DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTUIKitAdditionsDemoViewController.h; sourceTree = "<group>"; };
-		6D43330818DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTUIKitAdditionsDemoViewController.m; sourceTree = "<group>"; };
 		6D43330A18DEC147001E3BBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D43331018DEC147001E3BBB /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D43331118DEC147001E3BBB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,13 +120,14 @@
 		6D4332F818DEC147001E3BBB /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1B18D571191A19D7004EEFA2 /* sunflower.jpg */,
 				6D43330118DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.h */,
 				6D43330218DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.m */,
 				6D43330418DEC147001E3BBB /* Main.storyboard */,
-				6D43330718DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.h */,
-				6D43330818DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.m */,
 				6D43330A18DEC147001E3BBB /* Images.xcassets */,
 				6D4332F918DEC147001E3BBB /* Supporting Files */,
+				1B18D56E191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.h */,
+				1B18D56F191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D43330B18DEC147001E3BBB /* Images.xcassets in Resources */,
+				1B18D572191A19D7004EEFA2 /* sunflower.jpg in Resources */,
 				6D4332FD18DEC147001E3BBB /* InfoPlist.strings in Resources */,
 				6D43330618DEC147001E3BBB /* Main.storyboard in Resources */,
 			);
@@ -291,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D43330918DEC147001E3BBB /* PTUIKitAdditionsDemoViewController.m in Sources */,
+				1B18D570191A16BE004EEFA2 /* PTUIKitAdditionsDemoTableViewController.m in Sources */,
 				6D43330318DEC147001E3BBB /* PTUIKitAdditionsDemoAppDelegate.m in Sources */,
 				6D4332FF18DEC147001E3BBB /* main.m in Sources */,
 			);
